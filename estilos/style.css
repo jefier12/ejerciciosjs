@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #a1d9ef;
+    background-image: url(../img/background.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Parkinsans", sans-serif;
+}
+
+.titulo__contenedor{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 15px;
+
+}
+
+.titulo__texto{
+    color: #000000;
+}
+
+.ejercicios__lista{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* text-decoration: none; */
+    /* list-style: none; */
+
+}
+
+.ejercicios__item{
+    display: flex;
+    background-color: #d8b859;
+    border-radius: 70px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.ejercicios__link{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px;
+}

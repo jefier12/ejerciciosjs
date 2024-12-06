@@ -1,0 +1,1 @@
+// 68. Escribir un programa que muestre por consola la tabla de multiplicar del 1 al 10.
