@@ -2,8 +2,9 @@
 // este número es par o impar
 
 function aleatorioParOImpar() {
-    const num = Math.floor(Math.random() * 10) + 1;
-    return num % 2 === 0 ? `El número ${num} es par` : `El número ${num} es impar`;
-  }
-  console.log(aleatorioParOImpar());
+  const num = Math.floor(Math.random() * 10) + 1;
+  alert(`El número generado es ${num}. Es ${num % 2 === 0 ? "par" : "impar"}.`);
+}
+aleatorioParOImpar();
+
   
